@@ -1,0 +1,76 @@
+class Perro:
+  puntos_vida =5
+  puntos_alegria =5
+
+  def caminar (self,puntos_vida=5,puntos_alegria=5):
+    puntos_vida -=2
+    puntos_alegria += 1
+  def correr (self,puntos_vida=5,puntos_alegria=5):
+    puntos_vida -=4
+    puntos_alegria +=3
+  def dormir (self,puntos_vida=5,puntos_alegria=5):
+    puntos_vida +=1
+    puntos_alegria -=3
+  def jugar (self,puntos_vida=5,puntos_alegria=5):
+    puntos_vida -=3
+    puntos_alegria +=4
+  def comer (self,puntos_vida=5,puntos_alegria=5):
+    puntos_vida +=5
+    puntos_alegria +=1
+
+
+x=5
+y=5
+cont=0
+Lassie = Perro(x,y)
+while cont=!10:
+    Lassie.dormir()
+    if Lassie.puntos_vida==0:
+        print("Lassie muere =(")
+        break
+    else: cont+=1
+    Lassie.jugar()
+    if Lassie.puntos_vida==0:
+        print("Lassie muere =(")
+        break
+    else: cont+=1
+    Lassie.comer()
+    if Lassie.puntos_vida==0:
+        print("Lassie muere =(")
+        break
+    else: cont+=1
+    Lassie.jugar()
+    if Lassie.puntos_vida==0:
+        print("Lassie muere =(")
+        break
+    else: cont+=1
+    Lassie.caminar()
+    if Lassie.puntos_vida==0:
+        print("Lassie muere =(")
+        break
+    else: cont+=1
+    Lassie.dormir()
+    if Lassie.puntos_vida==0:
+        print("Lassie muere =(")
+        break
+    else: cont+=1
+    Lassie.correr()
+    if Lassie.puntos_vida==0:
+        print("Lassie muere =(")
+        break
+    else: cont+=1
+    Lassie.dormir()
+    if Lassie.puntos_vida==0:
+        print("Lassie muere =(")
+        break
+    else: cont+=1
+    Lassie.dormir()
+    if Lassie.puntos_vida==0:
+        print("Lassie muere =(")
+        break
+    else: cont+=1
+    Lassie.comer()
+    if Lassie.puntos_vida==0:
+        print("Lassie muere =(")
+        break
+    else: cont+=1
